@@ -1,6 +1,6 @@
 ---
 - name: new
-  hosts: localhost
+  hosts: 192.168.122.171
   tasks:
     - name: Updating Project Sync to false pre Gitlab stop
       ansible.controller.project:
