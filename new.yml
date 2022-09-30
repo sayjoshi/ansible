@@ -8,9 +8,9 @@
         controller_username: admin
         controller_password: ADM
         organization: "Default"
-        name: "git"
-        scm_type: "git"
-        scm_update_on_launch: true
-        scm_delete_on_update: true
+        name: "neww -gitt -amar"
+        #scm_type: "git"
+        #scm_update_on_launch: true
+        #scm_delete_on_update: true
         #fully_managed: false
 # https://github.com/sayjoshi/ansible.git
