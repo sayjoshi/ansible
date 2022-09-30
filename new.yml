@@ -4,6 +4,7 @@
   tasks:
     - name: Updating Project Sync to false pre Gitlab stop
       ansible.controller.project:
+        ansible_host: 192.168.122.171
         organization: "Default"
         name: "git"
         scm_type: "git"
