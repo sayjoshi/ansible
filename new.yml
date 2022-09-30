@@ -5,6 +5,9 @@
     - name: Updating Project Sync to false pre Gitlab stop
       ansible.controller.project:
         controller_host: 192.168.122.171
+        controller_username: admin
+        controller_password: ADM
+        organization: "Default"
         name: "git"
         scm_type: "git"
         scm_update_on_launch: true
