@@ -9,6 +9,7 @@
         controller_password: ADM
         organization: "Default"
         name: "git"
-        scm_type: "git"
-        scm_update_on_launch: true
-        scm_delete_on_update: true
+        
+        #scm_type: "git"
+       #scm_update_on_launch: true
+        #scm_delete_on_update: true
