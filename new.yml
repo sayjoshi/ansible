@@ -1,0 +1,11 @@
+---
+- name: new
+  hosts: localhost
+  tasks:
+    - name: Updating Project Sync to false pre Gitlab stop
+      ansible.controller.project:
+        organization: default
+        name: project scm
+        scm_type: "git"
+        scm_update_on_launch: true
+        scm_delete_on_update: true
