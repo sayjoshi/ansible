@@ -9,4 +9,5 @@
         file:
           path: /file5.txt
           state: directory
+          secontext: "unconfined_u:object_r:user_tmp_t:s0"
           mode: 0755
