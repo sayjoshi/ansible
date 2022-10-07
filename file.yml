@@ -9,5 +9,6 @@
         file:
           path: /file5.txt
           state: directory
-          secontext: "unconfined_u:object_r:user_tmp_t:s0"
+          setype: httpd_sys_rw_content_t
+          #secontext: "unconfined_u:object_r:user_tmp_t:s0"
           mode: 0755
