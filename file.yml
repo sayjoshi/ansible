@@ -8,6 +8,5 @@
       - name: Create the file
         file:
           path: /file5.txt
-          state: touch
-          recurse: yes
+          state: directory
           mode: 0755
